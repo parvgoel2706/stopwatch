@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="icon" type="image/png" href="./clock.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk:MORF@38&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-image: radial-gradient(purple, black)">
+    <h1>STOPWATCH</h1>
+    <div class="parent">
+      <div>
+        <div class="unit">HOURS</div>
+        <div class="child hours">00</div>
+      </div>
+      <div class="dots">
+        <div class="dot"><h1>.</h1></div>
+        <div class="dot"><h1>.</h1></div>
+      </div>
+      <div class="break">
+        <div class="unit">MINUTES</div>
+        <div class="child minutes">00</div>
+      </div>
+      <div class="dots">
+        <div class="dot"><h1>.</h1></div>
+        <div class="dot"><h1>.</h1></div>
+      </div>
+      <div>
+        <div class="unit">SECONDS</div>
+        <div class="child second">00</div>
+      </div>
+      <div class="dots">
+        <div class="dot"><h1>.</h1></div>
+        <div class="dot"><h1>.</h1></div>
+      </div>
+      <div>
+        <div class="unit">MILLISECONDS</div>
+        <div class="child millisecond">00</div>
+      </div>
+    </div>
+    <div id="btn">
+      <button class="start">START</button>
+      <button class="pause">PAUSE</button>
+    </div>
+    <br />
+    <button class="reset">RESET</button>
+    <script src="index.js"></script>
+  </body>
+</html>
