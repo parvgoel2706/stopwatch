@@ -42,9 +42,9 @@ body > h1 {
   font-size: 9rem;
 }
 button {
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 10px;
-  font-size: 2em;
+  font-size: 4em;
   color: aliceblue;
   background-color: red;
   border: solid 3px black;
